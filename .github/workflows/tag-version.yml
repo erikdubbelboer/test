@@ -3,7 +3,7 @@ name: Update Minor Version and Tag
 on:
   workflow_run:
     workflows: [CI validation]
-    branches: [master]
+    branches: [main]
     types: 
       - completed
 
